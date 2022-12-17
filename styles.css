@@ -1,0 +1,187 @@
+/* Wai's Search Project CSS File */
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(71, 16, 76);
+    background-color: rgb(109, 173, 237);
+
+  }
+
+  .space_center {
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .space_right {
+    margin: auto;
+    width: 95%;
+    border: 3px;
+    padding: 10px;
+    text-align: right;
+  }
+
+  .space_left {
+    margin: auto;
+    width: 95%;
+    border: 3px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .space_left_grid {
+    margin: auto;
+    width: 95%;
+    border: 3px;
+    padding: 10px;
+    text-align: left;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 600px auto;
+  }
+
+  .Wai_Advanced_Big_Font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  /*
+  input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  input[type=submit] {
+    width: 30%;
+    padding: 5px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(41, 62, 96);
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(179, 210, 240);
+  }
+*/
+
+.Wai_Google_Search_Input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.Wai_Google_Search_Input:focus {
+  background-color: lightblue;
+}
+
+.Wai_Google_Search_Submit {
+  width: 30%;
+  padding: 5px 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(41, 62, 96);
+  outline: none;
+  font-size: 15px;
+  background-color: rgb(179, 210, 240);
+}
+
+.Wai_Google_Advanced_Search_Input {
+  width: 60%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  font-size: 16px;
+}
+
+.Wai_Google_Advanced_Search_Input:focus {
+  background-color: lightblue;
+}
+
+.Wai_Google_Advanced_Search_Submit {
+  width: 60%;
+  padding: 5px 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(46, 123, 200);
+  outline: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(46, 123, 200);
+  border-radius: 10px;
+}
+
+.Wai_Google_Image_Search_Input {
+  width: 60%;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  font-size: 16px;
+}
+
+.Wai_Google_Image_Search_Input:focus {
+  background-color: lightblue;
+}
+
+.Wai_Google_Image_Search_Submit {
+  width: 30%;
+  padding: 5px 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(41, 62, 96);
+  outline: none;
+  font-size: 15px;
+  background-color: rgb(179, 210, 240);
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 13px;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 13px;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 13px;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 13px;
+}
